@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style1.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<script> src="logvalidation.js" </script>
+<body>
+
+<form action = "login.php" method = "post">
+  <div class="container">
+    <h1>Login</h1>
+    <p>Please fill in this form to login.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+    <button type="submit" class="loginbtn" onclick="validateForm()">Login</button>
+  </div>
+  
+</form>
+</body>
+</html>
+
